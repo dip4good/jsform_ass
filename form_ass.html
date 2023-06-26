@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_Ass</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+   <div class="general">
+    <div class="row">
+    <form  name="form" class="registration">
+        <p style="color: green; font-size: large; font-family: 'Trebuchet MS'; 
+        font-size: xx-large; font-weight: 700;">REGISTRATION FORM</p>
+            <div>
+                <b>Name</b> <br/>
+                <input type="text" name="name" >
+                <p id="nameErr" style="color:red"></p>
+            </div>
+            <div>
+                <b>Phone Number</b> <br/>
+                <input type="text"  name="phone" >
+                <p id="phoneErr" style="color:red"></p>
+            </div>
+            <div>
+                <b>Email</b> <br/>
+                <input type="text" name="email" >
+                <p id="emailErr" style="color:red"></p>
+            </div>
+            <div>
+                <b>Address</b> <br/>
+                <input type="text" name="address" >
+            </div> <br>
+            <div>
+                <b>Password</b> <br/>
+                <input type="password" name="password" >
+            </div> <br>
+            <div>
+                <b><label for=""> D.O.B </label></b> <br/>
+                <input type="date" name="DOB" >
+            </div> <br>
+            <input type="submit" value="Register"> <b></b>
+        </div><br>
+    </form>
+    <section class="dashboard">
+            <b>We appreciate you to be part of us. For proper documentation, your details are:<p id="name"></p> <p id="email"></p>
+            <p id="phone"></p> <p id="address"></p> <p id="password"></p> <p id="DOB"></p> </b>
+    </section>
+    </div>
+</div>
+<script src="form_ass.js"></script>      
+</body>
+</html>
